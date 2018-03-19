@@ -1,4 +1,4 @@
-# chuizi
+# youzan
 
 > A Vue.js project
 

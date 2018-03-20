@@ -3,7 +3,8 @@
     <el-container>
       <el-header>
         <img class="logo" src="./assets/logo.png" alt="">
-        <Menu />
+        <span class="title">有赞</span>
+        <nav-menu />
       </el-header>
       <el-main>Main</el-main>
       <el-footer>Footer</el-footer>
@@ -12,19 +13,21 @@
 </template>
 
 <script>
-import Menu from './components/menu'
+import NavMenu from './components/menu'
 export default {
   name: 'App',
-  components: MenuS
+  components: {
+    NavMenu
+  }
 }
 </script>
 
 <style>
 .el-header, .el-footer {
-    background-color: #B3C0D1;
+    background-color: white;
     color: #333;
-    text-align: center;
-    line-height: 60px;
+    /* text-align: center; */
+    height: 80px;
   }
   .el-main {
     background-color: #E9EEF3;
@@ -33,8 +36,26 @@ export default {
     line-height: 160px;
   }
   .logo {
-    width: 60px;
-    height: 60px;
+    /* display: inline-block; */
+    width: 25px;
+    height: 25px;
     float: left;
+    margin-top: 10px;
+    margin-left: 120px;
   }
+  .title {
+    display: inline-block;
+    float: left;
+    padding-top: 5px;
+    padding-left: 4px;
+    font: bold;
+    font-size: 24px;
+  }
+  .menu {
+    display: inline;
+    float: left;
+     padding-top: -50px;
+    padding-left: -50px;
+  }
+  /* .title */
 </style>

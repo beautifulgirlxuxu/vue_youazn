@@ -6,8 +6,8 @@
             <el-button type="primary" plain>功能介绍</el-button>
         </div>
         <div class="content">
-            <div class="left">        
-                <div class="left-lf">
+            <div class="right">        
+                <div class="right-lf">
                     <div>
                         <h3>门店网店互通</h3>
                         <p>统一管理商品，效率高</p>
@@ -19,7 +19,7 @@
                         <p>一个后台轻松管理</p>
                     </div>
                 </div>
-            <div class="left-rg">
+            <div class="right-rg">
                 <div>
                     <h3>经营自己的会员</h3>
                     <p>统一管理商品，效率高</p>
@@ -32,7 +32,7 @@
                 </div>
             </div>
             </div>
-            <div class="right">
+            <div class="left">
                 <img src="https://img.yzcdn.cn/public_files/2018/02/12/9de50602de27fc75b392fee1a43f9de6.png" alt="">
             </div>
         </div>
@@ -48,19 +48,21 @@ export default {
 <style scoped>
 .retail {
     width: 100%;
-    height: 800px;
+    height: 660px;
     background-color: aquamarine;
-    margin-top: -60px;
+    margin-top: -50px;
 }
 .title{
     display: inline-block;
-    width: 200px;
-    font-size: 24px;
-    padding-top: -40px;
-    padding-left: 500px;
+    width: 100%;
+    height: 200px;
+    font-size: 26px;
+    padding-top: -60px;
+    /* position: absolute; */
+    
 }
 .button {
-     margin: -120px auto;
+     margin: -140px auto;
 }
 .el-button {
     width: 128px;
@@ -68,37 +70,39 @@ export default {
 .content {
     text-align: left;
 }
-.left {
+.right {
     float: right;
     width: 500px;
     height: 300px;
-    margin: 60px 100px;
+    margin-top: 70px;
 }
-.left h3 {
+.right h3 {
     width: 250px;
     height: 25px;
     font-size: 18px;
 }
-.left p {
+.right p {
     width: 250px;
     height: 15px;
     font-size: 16px;
 }
-.left-lf {
+.right-lf {
     float: left;
 }
-.left-lf div:nth-child(2) {
+.right-lf div:nth-child(2) {
     margin-top: 80px;
 }
-.left-rg div:nth-child(2) {
+.right-rg div:nth-child(2) {
     margin-top: 80px;
 }
-.left-rg {
+.right-rg {
     float: right;
 }
-.right {
+.left {
+    height: 418px;
     float: left;
-    margin-top: -310px;
-    margin-right: 100px;
+    /* margin-top: 160px; */
+    padding-top: 160px;
+    margin-left: 50px;
 }
 </style>

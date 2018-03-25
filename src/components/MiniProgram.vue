@@ -81,7 +81,7 @@ export default {
 .left {
     float: left;
     width: 500px;
-    height: 800px;
+    height: 460px;
     margin-top: 70px;
 }
 .left-son {
@@ -105,6 +105,7 @@ export default {
     height: 20px;
 }
 .right {
+    height: 443px;
     float: right;
     margin-top: 70px;
     margin-left: 50px;

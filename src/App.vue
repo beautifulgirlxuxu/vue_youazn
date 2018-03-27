@@ -7,10 +7,12 @@
         <nav-menu />
       </el-header>
       <el-main>
-        <Slider />
-        <Shop />
-        <Retail />
-        <MiniProgram />
+        <Slider/>
+        <Shop/>
+        <Retail/>
+        <MiniProgram/>
+        <Solutions/>
+        <Users/>
       </el-main>
       <el-footer>Footer</el-footer>
     </el-container>
@@ -23,6 +25,8 @@ import Slider from './components/slider'
 import Shop from './components/shop'
 import Retail from './components/retail'
 import MiniProgram from './components/miniProgram'
+import Solutions from './components/solutions'
+import Users from './components/users'
 export default {
   name: 'App',
   components: {
@@ -30,7 +34,9 @@ export default {
     Slider,
     Shop,
     Retail,
-    MiniProgram
+    MiniProgram,
+    Solutions,
+    Users
   }
 }
 </script>
@@ -43,7 +49,7 @@ export default {
     height: 80px;
   }
   .el-main {
-    // background-color: #E9EEF3;
+    /* background-color: #E9EEF3; */
     color: #333;
     text-align: center;
     line-height: 160px;

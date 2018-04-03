@@ -45,9 +45,10 @@ export default {
 
 <style scoped>
 .users {
-  width: 1200px;
-  height: 800px;
+  width: 100%;
+  height: 730px;
   /* background-color:red; */
+  box-sizing: border-box;
 }
 h1 {
   height: 20px;
@@ -59,13 +60,13 @@ h1 {
   width: 100%;
   height: 100%;
   margin-left: 80px;
-  background-color: red;
+  background-color: #f9f9f9;
 }
 .user {
   width: 352px;
   height: 300px;
   margin: 10px 10px;
-  background-color:greenyellow;
+  background-color: #ffffff;
   float: left;
 }
 .user img:nth-child(1) {
@@ -94,7 +95,7 @@ h1 {
   line-height: 10px;
   text-align: center;
   display: block;
-  margin-top: 120px;
+  margin-top: 160px;
   margin-left: 480px;
 }
 </style>

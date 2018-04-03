@@ -49,7 +49,7 @@ export default {
 .retail {
     width: 100%;
     height: 660px;
-    background-color: aquamarine;
+    background-color: #f9f9f9;
     margin-top: -50px;
 }
 .title{

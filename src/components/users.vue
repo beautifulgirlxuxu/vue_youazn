@@ -49,6 +49,7 @@ export default {
   height: 730px;
   /* background-color:red; */
   box-sizing: border-box;
+  overflow: hidden;
 }
 h1 {
   height: 20px;

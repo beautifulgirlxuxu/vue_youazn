@@ -14,7 +14,9 @@
         <Solutions/>
         <Users/>
       </el-main>
-      <el-footer>Footer</el-footer>
+      <el-footer>
+        ©2012-2018 Youzan.com
+      </el-footer>
     </el-container>
   </div>
 </template>
@@ -27,6 +29,7 @@ import Retail from './components/retail'
 import MiniProgram from './components/miniProgram'
 import Solutions from './components/solutions'
 import Users from './components/users'
+import HelloWorld from './components/HelloWorld'
 export default {
   name: 'App',
   components: {
@@ -42,6 +45,12 @@ export default {
 </script>
 
 <style scoped>
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  /* background-color:lavender; */
+}
 .el-header, .el-footer {
     background-color: white;
     color: #333;
@@ -50,6 +59,8 @@ export default {
   }
   .el-main {
     /* background-color: #E9EEF3; */
+    width: 100%;
+    height: 100%;
     color: #333;
     text-align: center;
     line-height: 160px;
@@ -76,5 +87,10 @@ export default {
      padding-top: -50px;
     padding-left: -50px;
   }
-
+  .el-footer {
+    /* background-color: lightslategrey; */
+    text-align: center;
+    height: 200px;
+    line-height: 100px;
+  }
 </style>

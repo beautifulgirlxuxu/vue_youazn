@@ -61,13 +61,13 @@ h1 {
   width: 100%;
   height: 100%;
   margin-left: 80px;
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
 }
 .user {
   width: 352px;
   height: 300px;
   margin: 10px 10px;
-  background-color: #ffffff;
+  background-color: #fff;
   float: left;
 }
 .user img:nth-child(1) {

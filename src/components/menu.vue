@@ -32,7 +32,7 @@
           </el-dropdown-menu>
         </el-dropdown>
       </el-menu-item>
-      <el-button class="bu" type="primary" plain>登录</el-button>
+      <el-button class="bu" type="primary" plain><router-link to="/helloWorld">登录</router-link></el-button>
       <el-button class="bu" type="primary">注册</el-button>
     </el-menu>
   </div>    
@@ -43,8 +43,8 @@
 export default {
     data() {
       return {
-        activeIndex: '1',
-        activeIndex2: '1'
+        // activeIndex: '1',
+        // activeIndex2: '1'
       };
     },
     methods: {
